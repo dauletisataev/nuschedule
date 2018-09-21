@@ -1,0 +1,152 @@
+{
+  "project_info": {
+    "project_number": "431984200808",
+    "firebase_url": "https://nu-schedule.firebaseio.com",
+    "project_id": "nu-schedule",
+    "storage_bucket": "nu-schedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431984200808:android:8c5b081c9cd37c32",
+        "android_client_info": {
+          "package_name": "com.example.admin.nuschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431984200808-69evavv5lrss16734r9s4h4qp04eh1v7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.nuschedule",
+            "certificate_hash": "fc4d6040c80f8c4eebb3b94027611a40e877cc57"
+          }
+        },
+        {
+          "client_id": "431984200808-slpivaon0tc0lilb16hr5qljfu8lkk2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXs2fZ1Da294DlUirCZo9UMiVcu4rNT4Y"
+        },
+        {
+          "current_key": "AIzaSyDZuFTp_wih6RiN6zHQ0h3GrrpLYvo0QE4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431984200808-slpivaon0tc0lilb16hr5qljfu8lkk2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431984200808:android:56b8209dd6aa0e1d",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431984200808-oju41bht4e6ee4944lbj8ousobt14h2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.myapplication",
+            "certificate_hash": "6e5228623afc7d1efc5c0de2642a5c3509654e4c"
+          }
+        },
+        {
+          "client_id": "431984200808-slpivaon0tc0lilb16hr5qljfu8lkk2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXs2fZ1Da294DlUirCZo9UMiVcu4rNT4Y"
+        },
+        {
+          "current_key": "AIzaSyDZuFTp_wih6RiN6zHQ0h3GrrpLYvo0QE4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431984200808-slpivaon0tc0lilb16hr5qljfu8lkk2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431984200808:android:5ed452a1e9f5590d",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.timetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431984200808-26rvsavm2fr8p2cublnr6rj109c600qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.timetable",
+            "certificate_hash": "6e5228623afc7d1efc5c0de2642a5c3509654e4c"
+          }
+        },
+        {
+          "client_id": "431984200808-slpivaon0tc0lilb16hr5qljfu8lkk2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXs2fZ1Da294DlUirCZo9UMiVcu4rNT4Y"
+        },
+        {
+          "current_key": "AIzaSyDZuFTp_wih6RiN6zHQ0h3GrrpLYvo0QE4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431984200808-slpivaon0tc0lilb16hr5qljfu8lkk2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

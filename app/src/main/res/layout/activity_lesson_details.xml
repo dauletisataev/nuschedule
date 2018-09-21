@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.LessonDetailsActivity"
+    android:orientation="vertical"
+>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/toolbar"
+        android:id="@+id/toolBar">
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <com.example.admin.nuschedule.view.SquareImage
+                    android:id="@+id/img_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_title"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/lesson_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="7"
+                    android:textColor="@color/black_de"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="title" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <com.example.admin.nuschedule.view.SquareImage
+                    android:id="@+id/img_day"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_day"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/lesson_days"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="7"
+                    android:textColor="@color/black_de"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="days" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <com.example.admin.nuschedule.view.SquareImage
+                    android:id="@+id/img_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_time"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/lesson_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="7"
+                    android:textColor="@color/black_de"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="days" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <com.example.admin.nuschedule.view.SquareImage
+                    android:id="@+id/img_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_info"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/lesson_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="7"
+                    android:textColor="@color/black_de"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="days" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="8">
+
+                <com.example.admin.nuschedule.view.SquareImage
+                    android:id="@+id/img_person"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/lesson_instructor"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="7"
+                    android:textColor="@color/black_de"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="days" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="8">
+
+                <com.example.admin.nuschedule.view.SquareImage
+                    android:id="@+id/img_place"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_place"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/lesson_room"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="7"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black_de"
+                    android:textSize="20dp"
+                    android:text="days" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/shadow_view"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/dropshadow" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

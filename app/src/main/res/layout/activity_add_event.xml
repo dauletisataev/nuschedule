@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.AddEventActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:id="@+id/toolBar">
+
+        </android.support.v7.widget.Toolbar>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="5">
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lesson_title"
+                            android:hint="Title"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lesson_description"
+                            android:hint="Description"/>
+                    </LinearLayout>
+                    <com.example.admin.nuschedule.view.SquareImage
+                        android:id="@+id/color_picker_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_color_picker"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/dayLabelsLinearLayout"
+                    android:background="@color/medium_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <com.example.admin.nuschedule.view.SquareImage
+                            android:id="@+id/img_info"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_info"  />
+
+                        <EditText
+                            android:id="@+id/lesson_type"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="7"
+                            android:hint="Type" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <com.example.admin.nuschedule.view.SquareImage
+                            android:id="@+id/img_person"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_person"  />
+
+                        <EditText
+                            android:id="@+id/lesson_instructor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="7"
+                            android:hint="Instructor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <com.example.admin.nuschedule.view.SquareImage
+                            android:id="@+id/img_place"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_place"  />
+
+                        <EditText
+                            android:id="@+id/lesson_room"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="7"
+                            android:hint="Room" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/dayLabelsLinearLayout"
+                    android:background="@color/medium_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/choose_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choose days"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:id="@+id/checkbox_layout">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:tag="Monday"
+                            android:id="@+id/checkbox_monday"
+                            android:text="Mon"/>
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:tag="Tuesday"
+                            android:id="@+id/checkbox_tuesday"
+                            android:text="Tues"/>
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:tag="Wednesday"
+                            android:id="@+id/checkbox_wednesday"
+                            android:text="Wednes"/>
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:tag="Thursday"
+                            android:id="@+id/checkbox_thursday"
+                            android:text="Thurs"/>
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:tag="Friday"
+                            android:id="@+id/checkbox_friday"
+                            android:text="Fri"/>
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/from"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="From:"
+                                android:textColor="#000" />
+
+                            <TextView
+                                android:id="@+id/startTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="20dp"
+                                android:textColor="@android:color/black"
+                                android:text="Start time"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/to"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="To:"
+                                android:textColor="#000" />
+
+                            <TextView
+                                android:id="@+id/endTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="20dp"
+                                android:text="End time"
+                                android:textColor="@android:color/black"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/shadow_view"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/dropshadow" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

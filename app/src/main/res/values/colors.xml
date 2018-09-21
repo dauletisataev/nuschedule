@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00aff0</color>
+    <color name="colorPrimaryDark">#097fb2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="medium_dark_gray">#A9A9A9</color>
+    <color name="medium_gray">#D3D3D3</color>
+    <color name="light_gray">#DCDCDC</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlue">#4FC3F7</color>
+
+    <color name="blue1">#C2281C</color>
+    <color name="blue2">#D78177</color>
+    <color name="blue3">#E15C34</color>
+    <color name="red1">#EEC04D</color>
+    <color name="red2">#60B37E</color>
+    <color name="red3">#449ADF</color>
+    <color name="green1">#4153AE</color>
+    <color name="green2">#7B87C6</color>
+    <color name="green3">#8132A4</color>
+    <color name="orange2">#f2ba50</color>
+    <color name="orange3">#ed9b3b</color>
+    <color name="violet1">#b689da</color>
+    <color name="violet2">#a168ce</color>
+    <color name="violet3">#8339be</color>
+    <integer-array name="mainColors">
+        <item>@color/blue1</item>
+        <item>@color/blue2</item>
+        <item>@color/blue3</item>
+        <item>@color/red1</item>
+        <item>@color/red2</item>
+        <item>@color/red3</item>
+        <item>@color/green1</item>
+        <item>@color/green2</item>
+        <item>@color/green3</item>
+        <item>@color/orange2</item>
+        <item>@color/orange3</item>
+        <item>@color/violet1</item>
+        <item>@color/violet2</item>
+        <item>@color/violet3</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LessonEventView">
+        <attr name="lessonName" format="string" />
+        <attr name="lessonRoom" format="string" />
+        <attr name="android:ems" />
+
+    </declare-styleable>
+</resources>

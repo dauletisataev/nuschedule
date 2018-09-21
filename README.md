@@ -6,10 +6,10 @@ The problem of students at Nazarbayev University was to manually type every less
 
 # Screens
 These are how app looks like in use.
-    First one is Schedule view.
-    Second is Day timetable view.
-    Third is Week schedule view.
-    Last one is how a new lesson is added.
+    *First* one is **Schedule view**.
+    *Second* is Day **timetable view**.
+    *Third* is Week **schedule view**.
+    *Last* one is how a **new lesson** is added.
 
 ![](https://firebasestorage.googleapis.com/v0/b/nu-schedule.appspot.com/o/schedule.gif?alt=media&amp;token=bf3cdeed-6fb4-44a8-bdd9-3416696aa4a2)
 ![](https://firebasestorage.googleapis.com/v0/b/nu-schedule.appspot.com/o/addcourse.gif?alt=media&amp;token=2235d10a-c603-49b8-83ce-bb53e05daca4)
